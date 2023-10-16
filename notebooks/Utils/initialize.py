@@ -24,11 +24,6 @@ cloud_type = getCloudType(hostname)
 
 # COMMAND ----------
 
-# MAGIC %sql
-# MAGIC CREATE CATALOG IF NOT EXISTS  satCatalog;
-
-# COMMAND ----------
-
 import json
 
 json_ = {
